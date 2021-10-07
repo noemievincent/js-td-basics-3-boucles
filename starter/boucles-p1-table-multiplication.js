@@ -14,5 +14,25 @@ N.B. Faites-le de deux manières différentes :
 
 // avec FOR
 
+// let iTable = parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
+// let iValeur = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?"));
+//
+// console.log(`Voici les ${iValeur} premières valeurs de la table de multiplication par ${iTable} :`);
+//
+// for (let i = 0; i < iValeur; i++){
+//     console.log(iTable*(i+1));
+// }
+
 
 // avec WHILE
+
+let iTable = parseInt(prompt("Quelle table de multiplication souhaitez-vous afficher ? La table de multiplication par"));
+let iValeur = parseInt(prompt("Combien de valeurs souhaitez-vous afficher pour cette table ?"));
+
+console.log(`Voici les ${iValeur} premières valeurs de la table de multiplication par ${iTable} :`);
+
+let i=0;
+while (i<iValeur){
+    console.log(iTable*(i+1));
+    i++;
+}
