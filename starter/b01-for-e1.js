@@ -28,8 +28,6 @@ EXEMPLE 1 :
 // 2°) avec boucle FOR
 
 
-console.log("Bouh ! ");
-
 
 
 
