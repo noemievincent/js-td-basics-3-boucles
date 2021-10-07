@@ -27,4 +27,7 @@ EXEMPLE 2 :
   - Le manège s'arrête
 */
 
+console.log("Le manège démarre");
+
+for (i)
 
