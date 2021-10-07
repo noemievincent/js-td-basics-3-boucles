@@ -16,3 +16,9 @@ EXEMPLE 3 :
 - Affichez les nombres pairs entre 0 et 20
 */
 
+let iEven = 0;
+
+while (iEven <= 20){
+    console.log(iEven);
+    iEven+=2;
+}

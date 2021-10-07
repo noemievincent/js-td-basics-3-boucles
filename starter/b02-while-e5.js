@@ -20,7 +20,13 @@
 
 // code de base sans le bonus
 
-
+let sLetter;
+while (true){
+    sLetter = prompt("Tapez une lettre ou X pour sortir :");
+    if (sLetter === "X") {
+        break;
+    }
+}
 
 
 

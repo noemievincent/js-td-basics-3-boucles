@@ -20,3 +20,11 @@
     - pour chaque valeur, le calcul et le résultat (par exemple : 1 * 7 = 7)
 */
 
+let iTable = parseInt(prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par"));
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${iTable}`);
+
+let i=0;
+while (i<10){
+    console.log(iTable*(i+1));
+    i++;
+}
