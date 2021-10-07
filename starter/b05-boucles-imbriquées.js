@@ -17,11 +17,7 @@
     - et puis la boucle externe (c'est celle qui boucle le plus lentement)
 */
 
-for (let i=1; i <= 2 ; i++) {
-    for (let j=1; j <= 3 ; j++) {
-        console.log(i,j);
-    }
-}
+
 
 
 
