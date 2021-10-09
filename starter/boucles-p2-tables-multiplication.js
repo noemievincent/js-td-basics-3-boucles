@@ -18,8 +18,8 @@
 const iX = parseInt(prompt("Combien de valeurs voulez vous ?"));
 const iN = parseInt(prompt("Combien de tables voulez vous ?"));
 
-for (let i = 2; i <= iN; i++){
-    for (let j = i; j){
-        console.log(j);
-    }
-}
+// for (let i = 2; i <= iN; i++){
+//     for (let j = i; j){
+//         console.log(j);
+//     }
+// }
