@@ -15,15 +15,14 @@
 	"Voici les … premières valeurs de la table de multiplication par …" 
 */
 
-const iX = parseInt(prompt("Combien de valeurs voulez vous ?"));
-const iN = parseInt(prompt("Combien de tables voulez vous ?"));
+const iX = parseInt(prompt("Combien de valeurs voulez-vous ?"));
+const iN = parseInt(prompt("Combien de tables voulez-vous ?"));
 
-alert(`OK, je vais vous afficher les ${iX} premières valeurs des ${iN} premières tables de multiplication`);
-console.log(`Voici les ${iX} premières valeurs de la table de multiplication par ${iN}`);
+console.log(`OK, je vais vous afficher les ${iX} premières valeurs des ${iN} premières tables de multiplication`);
 
-
-for (let i=1; i<=iN+1; i++){
-    for (let j=i; j<=iX; j++){
-        console.log(`${i} * ${j} = ${i*j}`);
+for (let i=1; i<iN+1; i++){
+    console.log(`Voici les ${iX} premières valeurs de la table de multiplication par ${i}`);
+    for (let j=1; j<=iX; j++){
+        console.log(`${j} * ${i} = ${i*j}`);
     }
 }
