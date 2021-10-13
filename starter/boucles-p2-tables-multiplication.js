@@ -18,8 +18,12 @@
 const iX = parseInt(prompt("Combien de valeurs voulez vous ?"));
 const iN = parseInt(prompt("Combien de tables voulez vous ?"));
 
-// for (let i = 2; i <= iN; i++){
-//     for (let j = i; j){
-//         console.log(j);
-//     }
-// }
+alert(`OK, je vais vous afficher les ${iX} premières valeurs des ${iN} premières tables de multiplication`);
+console.log(`Voici les ${iX} premières valeurs de la table de multiplication par ${iN}`);
+
+
+for (let i=1; i<=iN+1; i++){
+    for (let j=i; j<=iX; j++){
+        console.log(`${i} * ${j} = ${i*j}`);
+    }
+}
